@@ -5,6 +5,8 @@ id = "SLUS-00330"
 players = 1
 exe = "disc/SLUS_003.30"
 disc = "disc/Mortal Kombat Trilogy (USA) (Rev 1).cue"
+discs = ["disc/Mortal Kombat Trilogy (USA) (Rev 1).cue"]
+disc_serials = ["SLUS-00330"]
 load_address = "0x80100000"
 entry_pc = "0x8011437C"
 text_size = "0x00034000"
@@ -21,7 +23,7 @@ known_sha1 = ["aa9b7e1716bd8790bca25d651c280f7a2a48b884", "b1f8cf90914b65632bbb7
 known_crc32 = ["a3e7f67a", "2b32e271"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
